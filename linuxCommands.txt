@@ -1,0 +1,88 @@
+
+Chethana G@LAPTOP-SCLV1140 MINGW64 ~/OneDrive/Desktop/April2
+$ ls
+
+Chethana G@LAPTOP-SCLV1140 MINGW64 ~/OneDrive/Desktop/April2
+$ pwd
+/c/Users/Chethana G/OneDrive/Desktop/April2
+
+Chethana G@LAPTOP-SCLV1140 MINGW64 ~/OneDrive/Desktop/April2
+$ mkdir test
+
+Chethana G@LAPTOP-SCLV1140 MINGW64 ~/OneDrive/Desktop/April2
+$ cd test
+
+Chethana G@LAPTOP-SCLV1140 MINGW64 ~/OneDrive/Desktop/April2/test
+$ rmdir test
+rmdir: failed to remove 'test': No such file or directory
+
+Chethana G@LAPTOP-SCLV1140 MINGW64 ~/OneDrive/Desktop/April2/test
+$ mkdir testing
+
+Chethana G@LAPTOP-SCLV1140 MINGW64 ~/OneDrive/Desktop/April2/test
+$ rmdir testing
+
+Chethana G@LAPTOP-SCLV1140 MINGW64 ~/OneDrive/Desktop/April2/test
+$ touch file1.txt
+
+Chethana G@LAPTOP-SCLV1140 MINGW64 ~/OneDrive/Desktop/April2/test
+$ cp file1.txt file2.txt
+
+Chethana G@LAPTOP-SCLV1140 MINGW64 ~/OneDrive/Desktop/April2/test
+$ mv file2.txt renamedFile.txt
+
+Chethana G@LAPTOP-SCLV1140 MINGW64 ~/OneDrive/Desktop/April2/test
+$ echo -e "We are adding the text in the file1">file1.txt
+
+Chethana G@LAPTOP-SCLV1140 MINGW64 ~/OneDrive/Desktop/April2/test
+$ echo -e "We are adding the text in the file2"file2.txt
+We are adding the text in the file2file2.txt
+
+Chethana G@LAPTOP-SCLV1140 MINGW64 ~/OneDrive/Desktop/April2/test
+$ echo -e "We are adding the text in the file2">file2.txt
+
+Chethana G@LAPTOP-SCLV1140 MINGW64 ~/OneDrive/Desktop/April2/test
+$ touch file3.txt
+
+Chethana G@LAPTOP-SCLV1140 MINGW64 ~/OneDrive/Desktop/April2/test
+$ cat file1.txt
+We are adding the text in the file1
+
+Chethana G@LAPTOP-SCLV1140 MINGW64 ~/OneDrive/Desktop/April2/test
+$ cat file2.txt
+We are adding the text in the file2
+
+Chethana G@LAPTOP-SCLV1140 MINGW64 ~/OneDrive/Desktop/April2/test
+$ cat file2.txt | grep "text"
+We are adding the text in the file2
+
+Chethana G@LAPTOP-SCLV1140 MINGW64 ~/OneDrive/Desktop/April2/test
+$ cat file2.txt | grep "ing"
+We are adding the text in the file2
+
+Chethana G@LAPTOP-SCLV1140 MINGW64 ~/OneDrive/Desktop/April2/test
+$ wc -w file2.txt
+8 file2.txt
+
+Chethana G@LAPTOP-SCLV1140 MINGW64 ~/OneDrive/Desktop/April2/test
+$ wc -l file2.txt
+1 file2.txt
+
+Chethana G@LAPTOP-SCLV1140 MINGW64 ~/OneDrive/Desktop/April2/test
+$ wc -m file2.txt
+36 file2.txt
+
+Chethana G@LAPTOP-SCLV1140 MINGW64 ~/OneDrive/Desktop/April2/test
+$ sort file2.txt
+We are adding the text in the file2
+
+Chethana G@LAPTOP-SCLV1140 MINGW64 ~/OneDrive/Desktop/April2/test
+$ touch file4.txt
+
+Chethana G@LAPTOP-SCLV1140 MINGW64 ~/OneDrive/Desktop/April2/test
+$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+C:/Program Files/Git  476G  191G  286G  41% /
+
+Chethana G@LAPTOP-SCLV1140 MINGW64 ~/OneDrive/Desktop/April2/test
+$
